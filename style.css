@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.navbar{
+    background: linear-gradient(to right, #314755, #26a0da);
+    color: #fff;
+}
+#nav-bar a{
+    color: #fff;
+}
+.version{
+    border-radius: 15%;
+}
+
+#banner{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #314755, #26a0da);
+    color: #fff;
+}
+
+.hi{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: large;
+}
+.intro-word{
+    font-family: Montserrat;
+}
+.banner-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#info{
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    position: relative;
+    top: 0.9rem;
+    color: #999;
+}
+
+.card{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+    margin: 5px 0;
+}
+.batchcard{
+    position: relative;
+    top: 1rem;
+    text-align: left;
+}
+.clg-img{
+    width: 100%;
+}
+#social-handles{
+    text-align: center;
+}
+.logo{
+    width: 2%;
+    margin: 0 1rem;
+}
+.logo:hover{
+    transform: scale(2);
+}
+@media only screen and (max-width:768px){
+    .card-img-top{
+        display: none;
+    }
+    .logo{
+        width: 4%;
+    }
+}
+@media(max-width:480px){
+    #info{
+        height: 140vh;
+    }
+}
