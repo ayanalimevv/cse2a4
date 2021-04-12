@@ -33,6 +33,7 @@ table a{
     padding: 0;
     margin: 0;
     width: 90vw;
+    height: 36vh;
 }
 th{
     border-bottom: 1px solid black;
