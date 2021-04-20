@@ -8,7 +8,7 @@ body{
     font-weight: 500;
 }
 .navbar{
-    background: linear-gradient(to right, #314755, #26a0da);
+    background: linear-gradient(45deg, #0ab9cf,#7535e7);
     color: #fff;
 }
 #nav-bar a{
@@ -26,7 +26,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #314755, #26a0da);
+    background:  linear-gradient(45deg, #0ab9cf,#7535e7);
     color: #fff;
 }
 
@@ -53,6 +53,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10% 0%;
 }
 .copyright{
     position: relative;
