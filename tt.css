@@ -4,7 +4,7 @@
     margin: 0;
 }
 .navbar{
-    background: linear-gradient(to right, #314755, #26a0da);
+    background: linear-gradient(45deg, #0ab9cf,#7535e7);
     color: #fff;
     font-family: Montserrat;
 }
@@ -21,7 +21,7 @@
     height: 100vh;
 }
 #tt{
-    background: linear-gradient(to right, #314755, #26a0da);
+    background:linear-gradient(45deg, #0ab9cf,#7535e7);
     color: #fff;
 }
 table a{
@@ -33,7 +33,10 @@ table a{
     padding: 0;
     margin: 0;
     width: 90vw;
-    height: 50vh;
+    height:50vh;
+}
+.tt-table a:hover{
+    color: #fff;
 }
 th{
     border-bottom: 1px solid black;
@@ -63,6 +66,6 @@ td{
 }
 @media(max-width:800px){
     .logo{
-        width: 4%;
+        width: 5%;
     }
 }
