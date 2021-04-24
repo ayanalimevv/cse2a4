@@ -17,6 +17,11 @@ body{
 .version{
     border-radius: 15%;
 }
+.alert{
+    position: relative;
+    top: 7rem;
+    text-align: center;
+}
 
 #banner{
     height: 100vh;
@@ -26,7 +31,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  linear-gradient(to right, #0ab9cf,#7535e7);
+    background:  linear-gradient(45deg, #0ab9cf,#7535e7);
     color: #fff;
 }
 
