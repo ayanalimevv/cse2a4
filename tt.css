@@ -34,9 +34,11 @@ table a{
     margin: 0;
     width: 90vw;
     height:50vh;
+    text-align:center;
 }
 .tt-table a:hover{
     color: #fff;
+    transform:scale(1.2);
 }
 th{
     border-bottom: 1px solid black;
