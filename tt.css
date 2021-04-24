@@ -14,6 +14,11 @@
 .version{
     border-radius: 15%;
 }
+.alert{
+    position: relative;
+    top: 3.5rem;
+    text-align: center;
+}
 .row{
     display: flex;
     justify-content: center;
@@ -21,7 +26,7 @@
     height: 100vh;
 }
 #tt{
-    background:linear-gradient(to right, #0ab9cf,#7535e7);
+    background:linear-gradient(45deg, #0ab9cf,#7535e7);
     color: #fff;
 }
 table a{
@@ -34,11 +39,9 @@ table a{
     margin: 0;
     width: 90vw;
     height:50vh;
-    text-align:center;
 }
 .tt-table a:hover{
     color: #fff;
-    transform:scale(1.2);
 }
 th{
     border-bottom: 1px solid black;
