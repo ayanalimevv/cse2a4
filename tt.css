@@ -21,7 +21,7 @@
     height: 100vh;
 }
 #tt{
-    background:linear-gradient(45deg, #0ab9cf,#7535e7);
+    background:linear-gradient(to right, #0ab9cf,#7535e7);
     color: #fff;
 }
 table a{
